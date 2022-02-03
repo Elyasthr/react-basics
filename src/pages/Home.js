@@ -1,10 +1,11 @@
+import Countries from "../components/Countries";
 import Navigation from "../components/Navigation";
 
 const Home = () => {
   return(
     <>
     <Navigation />
-      <h1>Bismillah</h1>
+    <Countries />
     </>
   )
 };
